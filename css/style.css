@@ -590,12 +590,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         left: 0; } }
     .hero .slides img {
       position: absolute;
-      border-radius: 200px;
+      border-radius: 0;
       opacity: 0;
       -webkit-transition: 4s opacity ease;
       -o-transition: 4s opacity ease;
       transition: 4s opacity ease;
-      background: #ffffff; }
+      background: transprent; }
       .hero .slides img.active {
         opacity: 1;
         z-index: 1; }
